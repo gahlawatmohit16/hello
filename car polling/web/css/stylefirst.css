@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 12, 2018, 3:17:30 PM
+    Author     : Dell
+*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+header
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/car.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+.logo img{
+	float: left;
+	width: 150px;
+	height: auto;
+}
+.title
+{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.title h2
+{
+	color: #fff;
+	font-size: 60px;
+}
+.button
+{
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.btn
+{
+	border: 1px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+.btn:hover{
+	background-color: #fff;
+	color: #000;
+}
+
